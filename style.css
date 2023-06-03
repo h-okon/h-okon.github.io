@@ -1,0 +1,134 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    padding: 0px;
+}
+  
+header {
+  max-height: 3.5rem;
+  background-color: black;
+}
+
+.header-container {
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  margin-left: 0.5%;
+  color: white;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.header-name {
+  margin: 1%;
+  cursor: pointer;
+}
+
+.header-profile-picture {
+  max-height: 2.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  content: "";
+  border-left: 0.25em solid currentColor;
+  border-top: 0.25em solid transparent;
+  border-bottom: 0.25em solid transparent;
+  border-right: 0;
+  padding: 50px
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  max-height: 100%;
+  margin-top: 100px;
+}
+
+
+.terminal {
+  margin: 5rem;
+  background-color: #000;
+  border: 1px solid #fff;
+  padding: 20px;
+  height: 60rem;
+  min-height:480px;
+  width: 40rem;
+  color:white;
+  border-radius: 15px;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.nav-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.nav-btn.active {
+  background-color: #fff;
+  color: #000;
+}
+
+.section {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.experience-li {
+  display: flex;
+  justify-content: space-between;
+}

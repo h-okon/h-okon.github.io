@@ -1,0 +1,32 @@
+{
+  "about": {
+    "profilePicture": "img/pic.jpeg",
+    "name": "Hubert Okoń",
+    "jobTitle": "Certified Jenkins Engineer, DevOps Engineer",
+    "bio": "BSc in Computer Science at Maria-Curie Skłodowska University in Poland. Currently studies master in applied computer science. Specializes in CI/CD systems and cloud cost reduction. Loves programming and old Macintosh computers."
+  },
+  "projects": [
+    {
+      "title": "Acer is not a Mac, but can run macOS",
+      "description": "Project about running macOS on unsupported hardware. Provides details on how to run it on non-Apple hardware",
+      "link": "https://github.com/h-okon/Acer-Aspire-A515-Hackintosh"
+    },
+    {
+      "title": "Jenkins Controller + worker ready to go environment",
+      "description": "Simply execute docker-compose up, visit given url and enjoy ready to go CI/CD environment with architecture of Jenkins Controller and one Jenkins worker. Perfect environment for performing interviews, sandbox testing and benchmarking",
+      "link": "<in progress>"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Technical Team Leader, DevOps Engineer",
+      "company": "Appfire",
+      "date": "X.2021 - now"
+    },
+    {
+      "title": "System Administrator - Apprenticeship",
+      "company": "Statistics Poland",
+      "date": "2020"
+    }
+  ]
+}

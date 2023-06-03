@@ -1,1 +1,63 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hubert Okoń - DevOps Engineer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="breadcrumbs.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <img class="header-profile-picture" src="img/pic.jpeg" alt="Jenkins header logo">
+            <h1 class="header-name">Hubert Okoń</h1>
+        </div>
+
+    </header>
+
+    <div class="breadcrumbs__wrapper">
+        <ul id="breadcrumbs">
+            <li class="item">
+                <a href="/" class="model-link inside breadcrumbBarAnchor">Dashboard</a>
+            </li>
+
+            <li href="/" class="children"></li>
+
+            <li class="item">
+                <a target="_blank" href="https://github.com/h-okon" class="model-link inside breadcrumbBarAnchor">
+                    <img class="breadcrumbs-logo" src="img/github-mark.png" alt="">GitHub
+                </a>
+            </li>
+
+            <li href="/" class="children"></li>
+
+            <li class="item">
+                <a target="_blank" href="https://www.linkedin.com/in/hubert-o-59b807184/" class="model-link inside breadcrumbBarAnchor">
+                    <img class="breadcrumbs-logo" src="img/linkedin-logo.png" alt="">LinkedIn
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="content">
+        <div class="terminal">
+          <div class="navbar">
+            <button class="nav-btn active" onclick="toggleSection('about')">About Me</button>
+            <button class="nav-btn" onclick="toggleSection('experience')">Experience</button>
+            <button class="nav-btn" onclick="toggleSection('projects')">Projects</button>
+          </div>
+          <div id="about" class="section visible"></div>
+          <div id="projects" class="section"></div>
+          <div id="experience" class="section"></div>
+        </div>
+      </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
