@@ -1,2 +1,2 @@
 # h-okon.github.io
-Portfolio website  made in a Jenkins style.
+Portfolio website  made in a Jenkins CI/CD style.
