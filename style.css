@@ -79,7 +79,6 @@ ul.breadcrumb li a:hover {
   margin-top: 100px;
 }
 
-
 .terminal {
   margin: 5rem;
   background-color: #000;
@@ -90,7 +89,8 @@ ul.breadcrumb li a:hover {
   width: 40rem;
   color:white;
   border-radius: 15px;
-
+  max-width: 80%;
+  overflow-y: auto;
 }
 
 .navbar {
