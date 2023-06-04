@@ -67,13 +67,3 @@ document.querySelector('.header-name').addEventListener('click', function(e) {
 document.querySelector('.header-profile-picture').addEventListener('click', function(e) {
   window.location.href = '/';
 }, false);
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0KJW5YE5QL"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-0KJW5YE5QL');
-</script>
